@@ -17,7 +17,7 @@ then:
 
 ``` kaggle datasets download -d luisfredgs/in1164-deep-learning ```
 
-put all data on *input/* folder
+put all data on ***input/*** folder
 
 ## Requirements
 
