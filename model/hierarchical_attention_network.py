@@ -48,7 +48,6 @@ def load_subword_embedding_300d(word_index):
         coefs = np.asarray(values[1:], dtype='float32')
         embeddings_index[word] = coefs
     f.close()
-    print('found %s word vectors' % len(embeddings_index))
     
     #embedding matrix
     print('preparing embedding matrix...')
@@ -59,16 +58,13 @@ def load_subword_embedding_300d(word_index):
     for word, i in word_index.items():
         embedding_vector = embeddings_index.get(word)
         if (embedding_vector is not None) and len(embedding_vector) > 0:
-            # palavras nao encontradas no embedding permanecem com valor nulo
             embedding_matrix[i] = embedding_vector
         else:
-            words_not_found.append(word)
-    print('quantidade de word embeddings nulas: %d' % np.sum(np.sum(embedding_matrix, axis=1) == 0))
-    
+            words_not_found.append(word)    
     return embedding_matrix
 
 
-class HNATT():
+class HANetwork():
     def __init__(self):
         self.model = None
         self.MAX_SENTENCE_LENGTH = 0
@@ -189,10 +185,6 @@ class HNATT():
         
         if rnn_type is 'GRU':
             word_encoder = Bidirectional(GRU(50, return_sequences=True, dropout=0.2))(cnn)
-            
-            #word_encoder = Bidirectional(CuDNNGRU(
-            #units=50, kernel_regularizer=keras.regularizers.l2(1e-5), 
-            #bias_regularizer=keras.regularizers.l1(1e-3), return_sequences=True))(cnn)
             
         else:
             word_encoder = Bidirectional(
@@ -345,13 +337,7 @@ class HNATT():
                monitor='val_acc',
                patience=3,
              ),
-            ReduceLROnPlateau(),
-            # keras.callbacks.TensorBoard(
-            #   log_dir="logs/final/{}".format(datetime.datetime.now()), 
-            #   histogram_freq=1, 
-            #   write_graph=True, 
-            #   write_images=True
-            # )
+            ReduceLROnPlateau(),            
             LambdaCallback(
                 on_epoch_end=lambda epoch, logs: self._save_tokenizer_on_epoch_end(
                     os.path.join(saved_model_dir, 

@@ -1,6 +1,6 @@
 from dataset import *
 from keras import backend as K
-from model.hierarchical_attention_network import HNATT
+from model.hierarchical_attention_network import HANetwork
 
 # Seed
 np.random.seed(1024)
@@ -20,7 +20,7 @@ SAVED_MODEL_FILENAME = 'model.h5'
 
 
 K.clear_session()
-h = HNATT()	
+h = HANetwork()	
 
 h.train(train_x, 
         train_y,        
