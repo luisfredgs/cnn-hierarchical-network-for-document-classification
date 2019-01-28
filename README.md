@@ -10,9 +10,12 @@ J. Abreu , L. Fred, D. Macêdo, C. Zanchettin, "Hierarchical Attentional Hybrid 
 | IMDb Movie Review      |    2    |    50000       | [link](https://drive.google.com/drive/u/0/folders/0Bz8a_Dbh9Qhbfll6bVpmNUtUcFdjYmF2SEpmZUZUcVNiMUw1TWN6RDV3a0JHT3kxLVhVR2M)|
 
 To download datasets, install the kaggle tool:
-`` pip install kaggle `` 
+
+``` pip install kaggle ``` 
+
 then:
-`` kaggle datasets download -d luisfredgs/in1164-deep-learning `` 
+
+``` kaggle datasets download -d luisfredgs/in1164-deep-learning ```
 
 put all data on *input/* folder
 
