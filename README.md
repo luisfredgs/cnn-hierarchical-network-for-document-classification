@@ -11,13 +11,13 @@ J. Abreu , L. Fred, D. Macêdo, C. Zanchettin, "[**Hierarchical Attentional Hybr
 
 To download datasets, install the kaggle tool:
 
-``` pip install kaggle ``` 
+```$ pip install kaggle ``` 
 
 then:
 
-``` kaggle datasets download -d luisfredgs/in1164-deep-learning ```
+```$ kaggle datasets download -d luisfredgs/in1164-deep-learning ```
 
-``` kaggle datasets download -d luisfredgs/wiki-news-300d-1m-subword ```
+```$ kaggle datasets download -d luisfredgs/wiki-news-300d-1m-subword ```
 
 put all data on ***input/*** folder
 
