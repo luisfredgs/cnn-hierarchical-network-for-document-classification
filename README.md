@@ -1,4 +1,4 @@
-# Squeezed Very Deep Convolutional Networks for Text Classification (SVDCNN)
+# Hierarchical Attentional Hybrid Neural Networks for Document Classification
 
 J. Abreu , L. Fred, D. Macêdo, C. Zanchettin, "Hierarchical Attentional Hybrid Neural Networks for Document Classification", Submitted to IJCNN on 15 Jan, 2019.
 
