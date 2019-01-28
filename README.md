@@ -25,6 +25,7 @@ put all data on ***input/*** folder
 * Keras 2.x
 * gensim
 * tqdm
+* matplotlib
 
 ## Execution 
 run ```python train.py```
