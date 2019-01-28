@@ -1,6 +1,6 @@
 # Hierarchical Attentional Hybrid Neural Networks for Document Classification
 
-J. Abreu , L. Fred, D. Macêdo, C. Zanchettin, "Hierarchical Attentional Hybrid Neural Networks for Document Classification", Submitted to IJCNN on 15 Jan, 2019.
+J. Abreu , L. Fred, D. Macêdo, C. Zanchettin, "**Hierarchical Attentional Hybrid Neural Networks for Document Classification**", Submitted to IJCNN on 15 Jan, 2019.
 
 
 ## Datasets:
