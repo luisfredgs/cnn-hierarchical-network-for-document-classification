@@ -16,6 +16,7 @@ To download datasets, install the kaggle tool:
 then:
 
 ``` kaggle datasets download -d luisfredgs/in1164-deep-learning ```
+
 ``` kaggle datasets download -d luisfredgs/wiki-news-300d-1m-subword ```
 
 put all data on ***input/*** folder
