@@ -2,9 +2,7 @@ from keras import backend as K
 from keras.engine.topology import Layer
 from keras import initializers
 
-"""
-Camada Attention
-"""
+""" Attention layer """
 class Attention(Layer):
     def __init__(self, **kwargs):
         self.init = initializers.get('normal')

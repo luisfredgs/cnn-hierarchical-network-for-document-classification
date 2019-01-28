@@ -1,3 +1,4 @@
+"""" Adapted from https://github.com/philipperemy/keras-tcn/blob/master/tcn/tcn.py """
 import tensorflow as tf
 import keras
 from keras import backend as K
