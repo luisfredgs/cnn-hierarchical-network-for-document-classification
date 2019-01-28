@@ -29,7 +29,7 @@ word_embedding_type = "from_scratch" #@param ["from_scratch", "pre_trained"]
 
 word_vector_model = "fasttext" #@param ["fasttext"]
 rnn_type = "GRU" #@param ["LSTM", "GRU"]
-learning_rate = 0.001 #@param {type:"slider", min:0.001, max:0.05, step:0.001}
+learning_rate = 0.001
 
 
 cnn_type = "kim2014" #@param ["tcn", "kim2014", "k-max"]
