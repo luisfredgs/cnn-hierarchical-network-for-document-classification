@@ -13,7 +13,7 @@ To download datasets, install the kaggle tool:
 
 ``` pip install kaggle ``` 
 
-then run these commands:
+then run follow commands:
 
 ``` kaggle datasets download -d luisfredgs/in1164-deep-learning ```
 
