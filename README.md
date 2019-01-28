@@ -23,6 +23,8 @@ put all data on ***input/*** folder
 
 * tensorflow 1.10
 * Keras 2.x
+* gensim
+* tqdm
 
 ## Execution 
 run ```python train.py```
