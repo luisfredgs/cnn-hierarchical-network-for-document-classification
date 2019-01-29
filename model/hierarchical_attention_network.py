@@ -34,10 +34,6 @@ learning_rate = 0.001
 
 cnn_type = "kim2014" #@param ["tcn", "kim2014", "k-max"]
 
-"""
- Permite usar um word embedding previsamente treinado
-"""
-
 def load_subword_embedding_300d(word_index):
     print('load_subword_embedding...')
     embeddings_index = {}
