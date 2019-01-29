@@ -30,4 +30,4 @@ put all data on ***input/*** folder
 * matplotlib
 
 ## Execution 
-run ```python train.py```
+run ```python train.py``` 
