@@ -29,5 +29,7 @@ put all data on ***input/*** folder
 * tqdm
 * matplotlib
 
+A GPU with CUDA support is required to run this code
+
 ## Execution 
 run ```python train.py``` 
