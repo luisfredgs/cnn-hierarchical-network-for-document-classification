@@ -25,6 +25,7 @@ put all data on ***input/*** folder
 
 * tensorflow 1.10
 * Keras 2.x
+* spacy 2.0
 * gensim
 * tqdm
 * matplotlib
