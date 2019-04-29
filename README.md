@@ -18,7 +18,7 @@ J. Abreu , L. Fred, D. Macêdo, C. Zanchettin, "[**Hierarchical Attentional Hybr
 
 Pre-trained FastText word embeddings can be downloaded in [https://www.kaggle.com/luisfredgs/wiki-news-300d-1m-subword](https://www.kaggle.com/luisfredgs/wiki-news-300d-1m-subword)
 
-To run notebook on Google Colab you don't need download these files. Type your kaggle username and API key during cell execution and wait. Will done.
+To run this notebook on Google Colab you don't need download these files. Type your kaggle username and API key during cell execution and wait. Will done.
 
 
 ## Requirements
