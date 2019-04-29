@@ -6,24 +6,20 @@ J. Abreu , L. Fred, D. Macêdo, C. Zanchettin, "[**Hierarchical Attentional Hybr
 
 ![](track_colab.PNG)
 
+## Run this code on Google Colab with Free GPU
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1LH7xLroO6QWO9dC6Hipn7xHYxVchJiUt)
 
 ## Datasets:
-| Dataset                | Classes | Documents | source |
+| Dataset                | Classes | Documents | download |
 |------------------------|:---------:|:-------:|:--------:|
 | Yelp Review Polarity   |    5    |    1569264   |[link](https://www.kaggle.com/luisfredgs/hahnn-for-document-classification)|
 | IMDb Movie Review      |    2    |    50000       | [link](https://www.kaggle.com/luisfredgs/hahnn-for-document-classification)|
 
-To download datasets, install the kaggle tool:
+Pre-trained FastText word embeddings can be downloaded in [https://www.kaggle.com/luisfredgs/wiki-news-300d-1m-subword](https://www.kaggle.com/luisfredgs/wiki-news-300d-1m-subword)
 
-``` pip install kaggle ``` 
+To run notebook on Google Colab you don't need download these files. Type your kaggle username and API key during cell execution and wait. Will done.
 
-then run follow command:
-
-``` kaggle datasets download -d luisfredgs/hahnn-for-document-classification ```
-
-``` kaggle datasets download -d luisfredgs/wiki-news-300d-1m-subword ```
-
-Or provide your kaggle username and API Key on **hahnn-for-document-classification.ipynb**
 
 ## Requirements
 
