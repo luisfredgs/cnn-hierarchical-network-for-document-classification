@@ -2,6 +2,10 @@
 
 J. Abreu , L. Fred, D. Macêdo, C. Zanchettin, "[**Hierarchical Attentional Hybrid Neural Networks for Document Classification**](https://arxiv.org/abs/1901.06610)", Submitted to IJCNN on 15 Jan, 2019.
 
+## Performance on Yelp Dataset for multi-class
+
+![](track_colab.PNG)
+
 
 ## Datasets:
 | Dataset                | Classes | Documents | source |
