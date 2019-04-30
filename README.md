@@ -2,9 +2,9 @@
 
 J. Abreu , L. Fred, D. Macêdo, C. Zanchettin, "[**Hierarchical Attentional Hybrid Neural Networks for Document Classification**](https://arxiv.org/abs/1901.06610)", Submitted to IJCNN on 15 Jan, 2019.
 
-## Performance on Yelp Dataset for multi-class
+## Performance on Yelp Dataset multi-class
 
-![](track_colab.PNG)
+![Yelp multi-class|885x789](track_colab.PNG)
 
 ## Run this code on Google Colab with Free GPU
 
@@ -23,6 +23,7 @@ To run this notebook on Google Colab you don't need download these files. Type y
 
 ## Requirements
 
+* Python 3
 * tensorflow 1.10
 * Keras 2.x
 * spacy 2.0
@@ -30,5 +31,5 @@ To run this notebook on Google Colab you don't need download these files. Type y
 * tqdm
 * matplotlib
 
-A GPU with CUDA support is required to run this code
+A GPU with CUDA support is required to run this code. On Google Colab, Select "**Runtime**," "**Change runtime type**" to Python 3. Ensure "**Hardware accelerator**" is set to GPU (the default is CPU).
 
