@@ -33,3 +33,11 @@ To run this notebook on Google Colab you don't need download these files. Type y
 
 A GPU with CUDA support is required to run this code. On Google Colab, Select "**Runtime**," "**Change runtime type**" to Python 3. Ensure "**Hardware accelerator**" is set to GPU (the default is CPU).
 
+## Please cite
+
+@article{abreu2019hierarchical,
+  title={Hierarchical Attentional Hybrid Neural Networks for Document Classification},
+  author={Abreu, Jader and Fred, Luis and Mac{\^e}do, David and Zanchettin, Cleber},
+  journal={arXiv preprint arXiv:1901.06610},
+  year={2019}
+}
