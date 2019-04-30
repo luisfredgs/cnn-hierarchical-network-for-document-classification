@@ -16,7 +16,7 @@ J. Abreu , L. Fred, D. Macêdo, C. Zanchettin, "[**Hierarchical Attentional Hybr
 | Yelp Review Polarity   |    5    |    1569264   |[link](https://www.kaggle.com/luisfredgs/hahnn-for-document-classification)|
 | IMDb Movie Review      |    2    |    50000       | [link](https://www.kaggle.com/luisfredgs/hahnn-for-document-classification)|
 
-Pre-trained FastText word embeddings can be downloaded in [https://www.kaggle.com/luisfredgs/wiki-news-300d-1m-subword](https://www.kaggle.com/luisfredgs/wiki-news-300d-1m-subword)
+Do you want use Pre-trained FastText word embeddings? Downloaded in [https://www.kaggle.com/luisfredgs/wiki-news-300d-1m-subword](https://www.kaggle.com/luisfredgs/wiki-news-300d-1m-subword). Check the source code for more details. Pay attention for Colab limits on RAM and GPU.
 
 To run this notebook on Google Colab you don't need download these files. Type your kaggle username and API key during cell execution and wait. Will done.
 
