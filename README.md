@@ -10,7 +10,7 @@ J. Abreu , L. Fred, D. Macêdo, C. Zanchettin, "[**Hierarchical Attentional Hybr
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1LH7xLroO6QWO9dC6Hipn7xHYxVchJiUt)
 
-To run this notebook on Google Colab you don't need download these files. Type your kaggle username and API key during cell execution and wait. Will done. If do you want to make predictions on new text data using a trained model, check **make_predictions.ipynb** for more details.
+To run this notebook on Google Colab you don't need download these files. Type your kaggle username and API key during cell execution and wait. Will done. If do you want to make predictions on new text data using a trained model, check [**make_predictions.ipynb**](https://github.com/luisfredgs/cnn-hierarchical-network-for-document-classification/blob/master/make_predictions.ipynb) for more details.
 
 ## Datasets:
 | Dataset                | Classes | Documents | download |
