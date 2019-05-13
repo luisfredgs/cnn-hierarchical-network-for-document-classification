@@ -6,12 +6,6 @@ J. Abreu , L. Fred, D. Macêdo, C. Zanchettin, "[**Hierarchical Attentional Hybr
 
 ![Yelp multi-class|885x789](track_colab.PNG)
 
-## Run this code on Google Colab with Free GPU
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1LH7xLroO6QWO9dC6Hipn7xHYxVchJiUt)
-
-To run this notebook on Google Colab you don't need download these files. Type your kaggle username and API key during cell execution and wait. Will done. If do you want to make predictions on new text data using a trained model, check [**make_predictions.ipynb**](https://github.com/luisfredgs/cnn-hierarchical-network-for-document-classification/blob/master/make_predictions.ipynb) for more details.
-
 ## Datasets:
 | Dataset                | Classes | Documents | download |
 |------------------------|:---------:|:-------:|:--------:|
@@ -30,7 +24,16 @@ Do you want use Pre-trained FastText word embeddings? Downloaded in [https://www
 * tqdm
 * matplotlib
 
-A GPU with CUDA support is required to run this code. On Google Colab, Select "**Runtime**," "**Change runtime type**" to Python 3. Ensure "**Hardware accelerator**" is set to GPU (the default is CPU).
+A GPU with CUDA support is required to run this code.
+
+## Run this code on Google Colab with Free GPU
+
+On Google Colab, Select "**Runtime**," "**Change runtime type**" to Python 3. Ensure "**Hardware accelerator**" is set to GPU (the default is CPU).
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1LH7xLroO6QWO9dC6Hipn7xHYxVchJiUt)
+
+To run this notebook on Google Colab you don't need download dataset files. Type your kaggle username and API key during cell execution and wait. Will done. If do you want to make predictions on new text data using a trained model, check [**make_predictions.ipynb**](https://github.com/luisfredgs/cnn-hierarchical-network-for-document-classification/blob/master/make_predictions.ipynb) for more details.
+
 
 ## Please cite
 
