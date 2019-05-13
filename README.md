@@ -10,6 +10,8 @@ J. Abreu , L. Fred, D. Macêdo, C. Zanchettin, "[**Hierarchical Attentional Hybr
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1LH7xLroO6QWO9dC6Hipn7xHYxVchJiUt)
 
+To run this notebook on Google Colab you don't need download these files. Type your kaggle username and API key during cell execution and wait. Will done. If do you want to make predictions on new text data using a trained model, check **make_predictions.ipynb** for more details.
+
 ## Datasets:
 | Dataset                | Classes | Documents | download |
 |------------------------|:---------:|:-------:|:--------:|
@@ -17,8 +19,6 @@ J. Abreu , L. Fred, D. Macêdo, C. Zanchettin, "[**Hierarchical Attentional Hybr
 | IMDb Movie Review      |    2    |    50000       | [link](https://www.kaggle.com/luisfredgs/hahnn-for-document-classification)|
 
 Do you want use Pre-trained FastText word embeddings? Downloaded in [https://www.kaggle.com/luisfredgs/wiki-news-300d-1m-subword](https://www.kaggle.com/luisfredgs/wiki-news-300d-1m-subword). Check the source code for more details. Pay attention to Colab limits of RAM and GPU.
-
-To run this notebook on Google Colab you don't need download these files. Type your kaggle username and API key during cell execution and wait. Will done. If do you want to make predictions on new text data using a trained model, check **make_predictions.ipynb** for more details.
 
 ## Requirements
 
