@@ -38,10 +38,11 @@ To run this notebook on Google Colab you don't need download dataset files. Type
 
 
 ## Please cite
-
+```
 @article{abreu2019hierarchical,
   title={Hierarchical Attentional Hybrid Neural Networks for Document Classification},
   author={Abreu, Jader and Fred, Luis and Mac{\^e}do, David and Zanchettin, Cleber},
   journal={arXiv preprint arXiv:1901.06610},
   year={2019}
 }
+```
