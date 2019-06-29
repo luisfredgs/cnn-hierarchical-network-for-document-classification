@@ -1,5 +1,7 @@
 # Hierarchical Attentional Hybrid Neural Networks for Document Classification
 
+Accepted in **ICANN 2019**
+
 J. Abreu , L. Fred, D. Macêdo, C. Zanchettin, "[**Hierarchical Attentional Hybrid Neural Networks for Document Classification**](https://arxiv.org/abs/1901.06610)".
 
 ## Performance on Yelp Dataset multi-class
