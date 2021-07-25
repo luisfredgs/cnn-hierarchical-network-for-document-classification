@@ -11,7 +11,7 @@ J. Abreu , L. Fred, D. Macêdo, C. Zanchettin, "[**Hierarchical Attentional Hybr
 ## Datasets:
 | Dataset                | Classes | Documents | download |
 |------------------------|:---------:|:-------:|:--------:|
-| Yelp 2018 Review   |    5    |    1569264   |[link](https://www.kaggle.com/luisfredgs/hahnn-for-document-classification)|
+| Yelp Reviews 2018   |    5    |    1569264   |[link](https://www.kaggle.com/luisfredgs/hahnn-for-document-classification)|
 | IMDb Movie Review      |    2    |    50000       | [link](https://www.kaggle.com/luisfredgs/hahnn-for-document-classification)|
 
 Do you want use Pre-trained FastText word embeddings? Downloaded in [https://www.kaggle.com/luisfredgs/wiki-news-300d-1m-subword](https://www.kaggle.com/luisfredgs/wiki-news-300d-1m-subword). Check the source code for more details. Pay attention to Colab limits of RAM and GPU.
